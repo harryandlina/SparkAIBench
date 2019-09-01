@@ -1,1 +1,2 @@
-
+提交负载：python start_workload.py 10 
+最后一个参数为提交作业的个数。
