@@ -5,7 +5,7 @@ spark_home_add_jar:
   jar files in spark_home_add_jar should be put in the $SPARK_HOME/jars
 
 workload_jar:
-  single AI workload's jar file
+  jar files in workload_jar should be download in your own path.
 
 workload_suit:
-  this file is the entry point of the project.
+  these files in workload_suit should be download in your own path, which are the entry points of the project.
