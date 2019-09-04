@@ -6,8 +6,6 @@ Secondly, you should put them in hdfs:/workload_data/
 <br>
 ```
 hadoop fs -mkdir /workload_data
-```
-<br>
-```
+
 hadoop fs -put yourdatapath /worload_data
 ```
