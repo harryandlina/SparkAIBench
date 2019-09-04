@@ -1,10 +1,11 @@
 # SparkAIBench
+\<br>
 AI workload on spark
 -
 
 detail information you could find in the users' manual: 
 
-harryandlina.github.io
+[harryandlina.github.io](harryandlina.github.io)
 
 spark_home_add_jar:
 -
