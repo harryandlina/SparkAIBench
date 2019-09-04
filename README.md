@@ -6,16 +6,19 @@ AI workload on spark
 detail information you could find in the users' manual: 
 
 [harryandlina.github.io](harryandlina.github.io)
+<br>
 
 spark_home_add_jar:
 -
 
   jar files in spark_home_add_jar should be put in the $SPARK_HOME/jars
+  <br>
 
 workload_jar:
 -
 
   jar files in workload_jar should be download in your own path.
+  <br>
 
 workload_suit:
 -
