@@ -36,14 +36,6 @@ def getinf(n, file_str):
     return num_list
 
 
-# getinf(30, "/Users/liuzifeng/Desktop/project/workload_spark/FB-2010_samples_24_times_1hr_withInputPaths_0.tsv")
-
-# getinf(5894, "/Users/liuzifeng/Desktop/project/workload_spark/FB-2009_samples_24_times_1hr_0.tsv")
-# getinf(50, "/Users/liuzifeng/Desktop/project/workload_spark/FB-2009_samples_24_times_1hr_0_first50jobs.tsv")
-# getinf(6638, "/Users/liuzifeng/Desktop/project/workload_spark/FB-2009_samples_24_times_1hr_1.tsv")
-# getinf(24442, "/Users/liuzifeng/Desktop/project/workload_spark/FB-2010_samples_24_times_1hr_0.tsv")
-# getinf(25428, "/Users/liuzifeng/Desktop/project/workload_spark/FB-2010_samples_24_times_1hr_withInputPaths_0.tsv")
-
 # data size statistic
 # [0, 86, 752, 717, 1072, 1730, 208, 222, 343, 239, 249, 234, 41, 1, 0, 0, 0, 0, 0, 0]
 # [0, 2, 1, 6, 2, 10, 18, 6, 2, 0, 2, 1, 0, 0, 0, 0, 0, 0, 0, 0]
