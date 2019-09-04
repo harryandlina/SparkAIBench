@@ -1,0 +1,30 @@
+# SparkAIBench
+detail information could be found in :
+user manual : harryandlina.github.io
+
+
+批量提交负载：
+python start_workload.py <number>
+最后一个参数为提交作业的个数。
+
+单个提交负载：
+MLlib和BigDL负责都可以通过使用start.sh脚本调用运行
+MLlib提交实例如下：
+bash start.sh <algorithmname> <queue> <pathtojar> <size>
+
+algorithmname选择提交的算法名称：linear， kmeans， svm， bayes ，FPGrowth，lda
+queue为提交到的队列名称
+pathjar输入jar的绝对路径
+size选择提交的数据量大小，可选范围为1-8，1代表数据量最小，8代表数据量最多
+
+
+BigDL提交实例如下：
+bash start.sh <algorithmname> <queue> <pathtojar> <iterationtime> <pathtodata>
+
+algorithmname选择需要的算法名称：rnn，autoencoder，lenet，resnet，vgg
+queue为提交到的队列名称
+pathtojar输入jar的绝对路径
+iterationtime选择迭代的次数
+pathtodata输入数据集所在的绝对路径
+
+
